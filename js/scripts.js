@@ -29,11 +29,43 @@ $(document).ready(function() {
 
   $("#start").click(function(event) {
     var character1 = $("input:radio[name=player1]:checked").val();
-    var inputtedName2 = $("input#name2").val();
+    var character2 = $("input:radio[name=player2]:checked").val();
     $("#Opening").hide();
+    $("#versus").show();
+    if(character1==="Grits n' Gravy") {
+      $("#grits1").show();
+    }
+    else if(character1==="Phyuck Yiu") {
+      $("#phyuck1").show();
+    }
+    else if(character1==="Leonard Washington") {
+      $("#leonard1").show();
+    }
+    else {
+      $("#larry1").show();
+    }
+    if(character2==="Grits n' Gravy") {
+      $("#grits2").show();
+    }
+    else if(character2==="Phyuck Yiu") {
+      $("#phyuck2").show();
+    }
+    else if(character2==="Leonard Washington") {
+      $("#leonard2").show();
+    }
+    else {
+      $("#larry2").show();
+    }
+
+  });
+  $("#play").click(function(event){
+    var character1 = $("input:radio[name=player1]:checked").val();
+    var character2 = $("input:radio[name=player2]:checked").val();
+    $("#versus").hide();
     $("#game").show();
     $("#player1Character1").text(character1);
-  });
+    $("#player2Character2").text(character2);
+  })
   //Player 1 Rolls
   $("#roll1").click(function(event) {
     event.preventDefault();

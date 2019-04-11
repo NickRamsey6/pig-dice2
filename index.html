@@ -10,38 +10,95 @@
   <body>
     <div id="Opening"class="jumbotron">
     <form id="Names">
-      <h1>Pig Dice</h1>
+      <h1>World Series of Dice</h1>
+      <img src="https://i.redd.it/p2vyylsxvao11.jpg" id="logo">
       <form id="player1Select">
         <div class="radio">
           <label for="player1">Player1 Choose Your Character</label>
           <br>
           <label>
-            <input type="radio" name="player1" value="1">
-            character1
-            <img src="https://media.spokesman.com/photos/2019/04/07/Mariners_White_Sox_Baseball2.JPG_BsXkiAC_v300x169.jpg?fa50f58bfca242427337bcc8ebba6054f89bd661">
+            <input type="radio" name="player1" value="Grits n' Gravy">
+            Grits n' Gravy
           </label>
           <label>
-            <input type="radio" name="player1" value="2">
-            character2
+            <input type="radio" name="player1" value="Phyuck Yiu">
+            Phyuck Yiu
           </label>
           <label>
-            <input type="radio" name="player1" value="3">
-            character3
+            <input type="radio" name="player1" value="Leonard Washington">
+            Leonard Washington
           </label>
           <label>
-            <input type="radio" name="player1" value="4">
-            character4
+            <input type="radio" name="player1" value="Ashy Larry">
+            Ashy Larry
           </label>
+          <br>
+          <img src="https://pbs.twimg.com/media/CXEzpc_W8AAXmmA.jpg" id="characterPic">
+          <img src="https://pbs.twimg.com/profile_images/674288814446243840/7nNU1rSk_400x400.jpg" id="characterPic">
+          <img src="http://78.media.tumblr.com/tumblr_l3xvgwBwOF1qz9a43o1_1280.jpg" id="characterPic">
+          <img src="https://a2-images.myspacecdn.com/images02/136/e71316a2dd5a42e59d1906a4e35a335d/full.jpg" id="characterPic">
         </div>
       </form>
-      <form id="name2">
-        <div class="form-group">
-          <label for="name2">Name2</label>
-          <input type="text" class="form-control" id="player2Name">
+      <br>
+      <form id="player2Select">
+        <div class="radio">
+          <label for="player2">Player2 Choose Your Character</label>
+          <br>
+          <label>
+            <input type="radio" name="player2" value="Grits n' Gravy">
+            Grits n' Gravy
+          </label>
+          <label>
+            <input type="radio" name="player2" value="Phyuck Yiu">
+            Phyuck Yiu
+          </label>
+          <label>
+            <input type="radio" name="player2" value="Leonard Washington">
+            Leonard Washington
+          </label>
+          <label>
+            <input type="radio" name="player2" value="Ashy Larry">
+            Ashy Larry
+          </label>
+          <br>
+          <img src="https://pbs.twimg.com/media/CXEzpc_W8AAXmmA.jpg" id="characterPic">
+          <img src="https://pbs.twimg.com/profile_images/674288814446243840/7nNU1rSk_400x400.jpg" id="characterPic">
+          <img src="http://78.media.tumblr.com/tumblr_l3xvgwBwOF1qz9a43o1_1280.jpg" id="characterPic">
+          <img src="https://a2-images.myspacecdn.com/images02/136/e71316a2dd5a42e59d1906a4e35a335d/full.jpg" id="characterPic">
         </div>
-        </form>
+      </form>
+      <br>
         <button id="start" type="button" class="btn btn-primary">Start</button>
       </form>
+     </div>
+     <div id="versus">
+       <div class="grits">
+         <img src="https://i.gifer.com/8sHH.gif" id="grits1">
+       </div>
+       <div class="phyuck">
+         <img src="https://thumbs.gfycat.com/UnrealisticWhoppingKid-size_restricted.gif" id="phyuck1">
+       </div>
+       <div class="leonard">
+         <img src="http://38.media.tumblr.com/d30b4dd0b2a3818ab80fb76ab598c142/tumblr_miulhdTNOq1qfrkf9o4_250.gif" id="leonard1">
+       </div>
+       <div class="larry">
+         <img src="https://media0.giphy.com/media/TQH80IB5d7jXO/giphy.gif" id="larry1">
+       </div>
+       <br>
+       <h2>Vs.</h2>
+       <div class="grits">
+         <img src="https://i.gifer.com/8sHH.gif" id="grits2">
+       </div>
+       <div class="phyuck">
+         <img src="https://thumbs.gfycat.com/UnrealisticWhoppingKid-size_restricted.gif" id="phyuck2">
+       </div>
+       <div class="leonard">
+         <img src="http://38.media.tumblr.com/d30b4dd0b2a3818ab80fb76ab598c142/tumblr_miulhdTNOq1qfrkf9o4_250.gif" id="leonard2">
+       </div>
+       <div class="larry">
+         <img src="https://media0.giphy.com/media/TQH80IB5d7jXO/giphy.gif" id="larry2">
+       </div>
+       <button id="play" type="button" class="btn btn-primary">Play!</button>
      </div>
      <div id="game"class="container">
        <h3 id="player1Character1"></h3>
@@ -52,7 +109,7 @@
           </ul>
         <button id="roll1" type="button" class="btn btn-primary">Roll</button>
         <button id="hold1" type="button" class="btn btn-primary">Hold</button>
-      <h3>Player 2</h3>
+      <h3 id="player2Character2"></h3>
           <ul>
             <li>Roll: <span id="player2Roll"></span></li>
             <li>Round Score: <span id="player2RoundScore"></span></li>

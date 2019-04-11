@@ -1,3 +1,49 @@
 #game {
   display: none;
 }
+
+#characterPic {
+  height: 300px;
+  width: 40%;
+}
+
+#logo {
+  height: 500px;
+  width: 50%;
+}
+
+#versus {
+  display: none;
+}
+
+#grits1 {
+  display: none;
+}
+
+#phyuck1 {
+  display: none;
+}
+
+#leonard1 {
+  display: none;
+}
+
+#larry1 {
+  display: none;
+}
+
+#grits2 {
+  display: none;
+}
+
+#phyuck2 {
+  display: none;
+}
+
+#leonard2 {
+  display: none;
+}
+
+#larry2 {
+  display: none;
+}
