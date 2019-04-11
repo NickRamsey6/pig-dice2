@@ -73,5 +73,10 @@ body {
 
 .gif {
   height: 300px;
-  width: 50%
+  width: 50%;
+}
+
+.playGifs {
+  height: 300px;
+  width: 30%;
 }
