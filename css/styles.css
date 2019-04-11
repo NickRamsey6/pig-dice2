@@ -70,3 +70,8 @@ body {
 #larry2 {
   display: none;
 }
+
+.gif {
+  height: 300px;
+  width: 50%
+}

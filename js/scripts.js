@@ -11,13 +11,23 @@ function Player() {
 //function to add multiple rolls to create a round score
 Player.prototype.Roll = function () {
   this.playerRoll = Math.floor(Math.random()*6) +1;
+  if (this.playerRoll ===1) {
+    this.playerRoundScore =0;
+    alert("You Rolled a 1! Loss of Turn! GO UPSTAIRS AND PUT ON SOME LOTION!!");
+  } else {
   this.playerRoundScore += this.playerRoll;
+  }
 }
 
 
 //function to hold scores and store them as total score
 Player.prototype.Hold = function () {
   this.playerTotalScore = this.playerTotalScore + this.playerRoundScore;
+  if (this.playerTotalScore >=100) {
+    alert("Winner... But Quills Dinkins is here to rob the game! EVERYBODY GET BUTTNAKED RIGHT NOW!!");
+  } else {
+    this.playerRoundScore =0;
+  }
 }
 
 
