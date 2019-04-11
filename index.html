@@ -14,32 +14,32 @@
       <form id="name1">
         <div class="form-group">
           <label for="name1">Name1</label>
-          <input type="text" class="form-control" id="name1">
+          <input type="text" class="form-control" id="player1Name">
         </div>
       </form>
       <form id="name2">
         <div class="form-group">
           <label for="name2">Name2</label>
-          <input type="text" class="form-control" id="name2">
+          <input type="text" class="form-control" id="player2Name">
         </div>
         </form>
-        <button id="roll" type="button" class="btn btn-primary">Start</button>
+        <button id="start" type="button" class="btn btn-primary">Start</button>
       </form>
      </div>
      <div id="game"class="container">
        <h3>Player 1</h3>
           <ul>
-            <li id="player1Roll">Roll:</li>
-            <li id="player1RoundScore">Round Score:</li>
-            <li id="player1TotalScore">Total Score:</li>
+            <li>Roll: <span id="player1Roll"></span></li>
+            <li>Round Score: <span id="player1RoundScore"></span></li>
+            <li>Total Score: <span id="player1TotalScore"></span></li>
           </ul>
         <button id="roll1" type="button" class="btn btn-primary">Roll</button>
         <button id="hold1" type="button" class="btn btn-primary">Hold</button>
       <h3>Player 2</h3>
           <ul>
-            <li>Roll:</li>
-            <li>Round Score:</li>
-            <li>Total Score:</li>
+            <li>Roll: <span id="player2Roll"></span></li>
+            <li>Round Score: <span id="player2RoundScore"></span></li>
+            <li>Total Score: <span id="player2TotalScore"></span></li>
           </ul>
         <button id="roll2" type="button" class="btn btn-primary">Roll</button>
         <button id="hold2" type="button" class="btn btn-primary">Hold</button>
