@@ -11,10 +11,27 @@
     <div id="Opening"class="jumbotron">
     <form id="Names">
       <h1>Pig Dice</h1>
-      <form id="name1">
-        <div class="form-group">
-          <label for="name1">Name1</label>
-          <input type="text" class="form-control" id="player1Name">
+      <form id="player1Select">
+        <div class="radio">
+          <label for="player1">Player1 Choose Your Character</label>
+          <br>
+          <label>
+            <input type="radio" name="player1" value="1">
+            character1
+            <img src="https://media.spokesman.com/photos/2019/04/07/Mariners_White_Sox_Baseball2.JPG_BsXkiAC_v300x169.jpg?fa50f58bfca242427337bcc8ebba6054f89bd661">
+          </label>
+          <label>
+            <input type="radio" name="player1" value="2">
+            character2
+          </label>
+          <label>
+            <input type="radio" name="player1" value="3">
+            character3
+          </label>
+          <label>
+            <input type="radio" name="player1" value="4">
+            character4
+          </label>
         </div>
       </form>
       <form id="name2">
@@ -27,7 +44,7 @@
       </form>
      </div>
      <div id="game"class="container">
-       <h3>Player 1</h3>
+       <h3 id="player1Character1"></h3>
           <ul>
             <li>Roll: <span id="player1Roll"></span></li>
             <li>Round Score: <span id="player1RoundScore"></span></li>
