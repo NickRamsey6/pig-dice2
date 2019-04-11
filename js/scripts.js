@@ -22,6 +22,10 @@ Player.prototype.Hold = function () {
 
 
 $(document).ready(function() {
+  $("#begin").click(function(event) {
+    $("#logo").hide();
+    $("#Opening").show();
+  });
   var newPlayer1 = new Player();
   var newPlayer2 = new Player();
   $("#player1TotalScore").text(0);

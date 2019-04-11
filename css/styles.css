@@ -1,3 +1,26 @@
+html *
+{
+  background-color: red;
+  color: lightgray;
+}
+
+body {
+  background-image: url("http://sites.psu.edu/drg5241/wp-content/uploads/sites/2433/2013/02/sportscenter_logo.jpg");
+}
+
+.container {
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+#Opening {
+  display: none;
+}
+
 #game {
   display: none;
 }
