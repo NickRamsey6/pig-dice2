@@ -6,7 +6,7 @@
 
 ## Description
 
-_For my fourth code review, I built a webpage that will take a pizza order from a user and return the price of that order. Price is based on size and as many toppings as wanted can be selected, free of charge. <a href="https://nickramsey6.github.io/pizza-order/">Link here</a>_
+_For my fourth code review, I built a webpage that will take a pizza order from a user and return the price of that order. Price is based on size and as many toppings as wanted can be selected, free of charge. <a href="https://nickramsey6.github.io/pig-dice2/">Link here</a>_
 
 ## Setup/Installation Requirements
 
